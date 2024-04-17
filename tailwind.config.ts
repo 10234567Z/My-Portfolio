@@ -28,7 +28,16 @@ const config: Config = {
   
         'sm': {'max': '639px'},
         // => @media (max-width: 639px) { ... }
-      }
+      },
+      keyframes: {
+        slideDown : {
+          '0%' : { transform: 'translateY(-100%)', opacity: '0' },
+          '100%' : { transform: 'translateY(0)', opacity: '1' },
+        }
+      },
+      animation: {
+        slideDown : 'slideDown 0.5s ease-in-out'
+      },
     },
   },
   plugins: [],
