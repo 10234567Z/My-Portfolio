@@ -13,10 +13,17 @@ export default function Navbar() {
     const DrawerList = (
         <Box sx={{ width: 150, backgroundColor: "rgb(31, 41, 55)", color: "whitesmoke", height: '100vh' }} role="presentation" onClick={() => setOpen(false)}>
             <List>
-                {["About", "Projects", "Socials"].map((text, index) => (
+                {["About", "Projects"].map((text, index) => (
                     <ListItemButton key={index}>
-                        {index === 0 ? <ListItemIcon><AccountTreeIcon /></ListItemIcon> : (index === 1 ? <ListItemIcon><InfoIcon /></ListItemIcon> : <ListItemIcon><Groups2Icon /></ListItemIcon>)}
-                        {index === 0 ? <ListItemText primary="Projects" /> : (index === 1 ? <ListItemText primary="About" /> : <ListItemText primary="Socials" />)}
+                        {index === 0 ? <ListItemIcon><AccountTreeIcon /></ListItemIcon> : <ListItemIcon><InfoIcon /></ListItemIcon>}
+                        {index === 0 ?
+                            <Link href="/projects">
+                                <ListItemText primary="Projects" />
+                            </Link>
+                            :
+                            <Link href="/about">
+                                <ListItemText primary="About" />
+                            </Link>}
                     </ListItemButton>
                 ))}
             </List>

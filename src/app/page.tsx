@@ -1,8 +1,9 @@
-import Footer from "@/app/components/footer";
-import Introduction from "@/app/components/introduction";
-import Navbar from "@/app/components/navbar";
-import Projects from "@/app/components/projects";
-import Skills from "@/app/components/skills";
+'use client'
+import Footer from "./components/footer";
+import Introduction from "./components/introduction";
+import Navbar from "./components/navbar";
+import Projects from "./components/projects";
+import Skills from "./components/skills";
 
 export default function Home() {
   return (

@@ -1,6 +1,7 @@
-import Footer from "@/app/components/footer";
-import Navbar from "@/app/components/navbar";
-import Projects from "@/app/components/projects";
+'use client'
+import Footer from "../components/footer";
+import Navbar from "../components/navbar";
+import Projects from "../components/projects";
 
 export default function Home() {
   return (
