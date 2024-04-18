@@ -17,11 +17,11 @@ export default function Home() {
           <Skills />
         </section>
         <h3 className="text-3xl text-center font-extrabold p-4 text-blue-200">Projects</h3>
-        <section className="grid grid-cols-auto-fit-650 sm:grid-cols-auto-fit-300 gap-6 p-4 pt-16 place-items-center bg-slate-400">
+        <section className="grid grid-cols-auto-fit-650 sm:grid-cols-auto-fit-300 gap-6 p-4 pt-16 pb-16 place-items-center bg-slate-400">
           <Projects />
         </section>
       </main>
-      <footer className=" text-center text-white min-h-[300px] grid grid-cols-auto-fit-150 gap-6 p-4 pt-16 place-items-center">
+      <footer className=" text-center text-white min-h-[200px] grid grid-cols-auto-fit-150 gap-6 p-4 pt-16 place-items-center">
         <Footer />
       </footer>
     </>
