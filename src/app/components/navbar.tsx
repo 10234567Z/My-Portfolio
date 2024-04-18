@@ -5,6 +5,7 @@ import InfoIcon from '@mui/icons-material/Info';
 import Groups2Icon from '@mui/icons-material/Groups2';
 import ArrowBackIosIcon from '@mui/icons-material/ArrowBackIos';
 import { Box, Button, Drawer, List, ListItemButton, ListItemIcon, ListItemText } from '@mui/material';
+import Link from 'next/link';
 
 export default function Navbar() {
     const [open, setOpen] = useState<boolean>(false)
@@ -34,18 +35,18 @@ export default function Navbar() {
                     <div className="flex-1 flex items-center justify-center md:items-stretch md:justify-start">
                         <div className="block sm:hidden ml-6">
                             <div className="flex space-x-4">
-                                <a
-                                    href="#"
-                                    className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                                <Link
+                                    href="/about"
+                                    className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium  transition-all duration-300"
                                 >
                                     About
-                                </a>
-                                <a
-                                    href="#"
-                                    className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                                </Link>
+                                <Link
+                                    href="/projects"
+                                    className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium  transition-all duration-300"
                                 >
                                     Projects
-                                </a>
+                                </Link>
                             </div>
                         </div>
                     </div>
