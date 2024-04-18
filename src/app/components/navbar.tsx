@@ -11,11 +11,11 @@ export default function Navbar() {
     const [open, setOpen] = useState<boolean>(false)
 
     const DrawerList = (
-        <Box sx={{ width: 150 , backgroundColor: "rgb(31, 41, 55)" , color: "whitesmoke" , height: '100vh' }} role="presentation" onClick={() => setOpen(false)}>
+        <Box sx={{ width: 150, backgroundColor: "rgb(31, 41, 55)", color: "whitesmoke", height: '100vh' }} role="presentation" onClick={() => setOpen(false)}>
             <List>
                 {["About", "Projects", "Socials"].map((text, index) => (
                     <ListItemButton key={index}>
-                        { index === 0 ? <ListItemIcon><AccountTreeIcon /></ListItemIcon> : (index === 1 ? <ListItemIcon><InfoIcon/></ListItemIcon> : <ListItemIcon><Groups2Icon /></ListItemIcon>)}
+                        {index === 0 ? <ListItemIcon><AccountTreeIcon /></ListItemIcon> : (index === 1 ? <ListItemIcon><InfoIcon /></ListItemIcon> : <ListItemIcon><Groups2Icon /></ListItemIcon>)}
                         {index === 0 ? <ListItemText primary="Projects" /> : (index === 1 ? <ListItemText primary="About" /> : <ListItemText primary="Socials" />)}
                     </ListItemButton>
                 ))}
@@ -29,7 +29,9 @@ export default function Navbar() {
                 <div className="relative flex items-center justify-between h-16">
                     <div className="flex-1 flex items-center justify-center md:items-stretch md:justify-start">
                         <div className="flex space-x-4">
-                            <h2 className="text-white">Harsh Suthar</h2>
+                            <Link href="/">
+                                <h2 className="text-white">Harsh Suthar</h2>
+                            </Link>
                         </div>
                     </div>
                     <div className="flex-1 flex items-center justify-center md:items-stretch md:justify-start">
