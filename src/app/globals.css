@@ -17,4 +17,8 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+  body::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+  }
 }
