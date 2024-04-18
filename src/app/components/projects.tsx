@@ -41,7 +41,7 @@ export default function Projects() {
                 </div>
                 <div className="flex flex-col items-center justify-start h-[100%] gap-2">
                     <h3 className="text-2xl text-black font-extrabold">Battleship</h3>
-                    <p className="text-black max-w-[300px] mb-4">Battle against the computers in a naval war while positioning your ships in an unpredictable way and defeat opponent's ships
+                    <p className="text-black max-w-[300px] mb-4">Battle against the computers in a naval war while positioning your ships in an unpredictable way and defeat opponent&apos;s ships
                         before they destroy yours!</p>
                     <p className="text-black">
                         Code :<a href="https://github.com/10234567Z/Battleship" className=" text-blue-500"> Click Here</a><br />

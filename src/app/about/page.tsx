@@ -15,7 +15,7 @@ export default function Home() {
                 <section className=" grid grid-cols-auto-fit-300 gap-6 p-4 pt-16 place-items-center">
                     <Skills />
                 </section>
-                <p className="text-3x text-center font-semibold p-4 text-blue-200 italic">"A FullStack developer specializing in MERN and PERN stack"</p>
+                <p className="text-3x text-center font-semibold p-4 text-blue-200 italic">&quot;A FullStack developer specializing in MERN and PERN stack&quot;</p>
             </main>
             <hr style={{ width: "100%" }} color="white" />
             <footer className=" text-center text-white min-h-[200px] grid grid-cols-auto-fit-150 gap-6 p-4 pt-16 place-items-center">
