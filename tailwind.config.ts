@@ -1,6 +1,9 @@
 import type { Config } from "tailwindcss";
 
 const config: Config = {
+  future: {
+    hoverOnlyWhenSupported: true
+  },
   content: [
     "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
@@ -51,6 +54,7 @@ const config: Config = {
       gridTemplateColumns: {
         'auto-fill-300': 'repeat(auto-fill, minmax(300px, 1fr))',
         'auto-fit-300': 'repeat(auto-fit, minmax(300px, 1fr))',
+        'auto-fit-650': 'repeat(auto-fit, minmax(650px, 1fr))',
       },
       gridTemplateRows: {
         'half': '50% 50%',
