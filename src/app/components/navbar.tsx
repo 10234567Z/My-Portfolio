@@ -28,7 +28,7 @@ export default function Navbar() {
                 <div className="relative flex items-center justify-between h-16">
                     <div className="flex-1 flex items-center justify-center md:items-stretch md:justify-start">
                         <div className="flex space-x-4">
-                            <h3 className="text-white">Harsh Suthar</h3>
+                            <h2 className="text-white">Harsh Suthar</h2>
                         </div>
                     </div>
                     <div className="flex-1 flex items-center justify-center md:items-stretch md:justify-start">

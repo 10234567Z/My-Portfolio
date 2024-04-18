@@ -44,9 +44,16 @@ const config: Config = {
         }
       },
       animation: {
-        slideDown : 'slideDown 0.5s ease-in-out',
-        fadeIn: 'fadeIn 0.8s ease-in-out',
-        slideIn: 'slideIn 0.8s ease-in-out',
+        slideDown : 'slideDown 1s ease-in-out',
+        fadeIn: 'fadeIn 1s ease-in-out',
+        slideIn: 'slideIn 0.8s linear',
+      },
+      gridTemplateColumns: {
+        'auto-fill-300': 'repeat(auto-fill, minmax(300px, 1fr))',
+        'auto-fit-300': 'repeat(auto-fit, minmax(300px, 1fr))',
+      },
+      gridTemplateRows: {
+        'half': '50% 50%',
       },
     },
   },
