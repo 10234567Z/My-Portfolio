@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+*{
+  box-sizing: border-box;
+  -webkit-user-drag: none;
+  user-select: none;
+}
+
 body {
   color: rgb(var(--foreground-rgb));
   background: rgb(31, 41, 55);

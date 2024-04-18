@@ -52,12 +52,9 @@ const config: Config = {
         slideIn: 'slideIn 0.8s linear',
       },
       gridTemplateColumns: {
-        'auto-fill-300': 'repeat(auto-fill, minmax(300px, 1fr))',
         'auto-fit-300': 'repeat(auto-fit, minmax(300px, 1fr))',
         'auto-fit-650': 'repeat(auto-fit, minmax(650px, 1fr))',
-      },
-      gridTemplateRows: {
-        'half': '50% 50%',
+        'auto-fit-150': 'repeat(auto-fit, minmax(150px, 1fr))',
       },
     },
   },
