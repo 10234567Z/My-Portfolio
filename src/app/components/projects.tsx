@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Projects() {
     return (
         <>
-            <div className=" flex flex-row items-start justify-center gap-4 p-4 bg-gray-300 rounded-lg transition-all duration-500 hover:shadow-2xl sm:flex-col h-[100%] overflow-hidden">
+            <div className=" flex flex-row items-start justify-center gap-4 p-4 bg-gray-300 rounded-lg transition-all duration-500 hover:shadow-2xl sm:flex-col h-[100%] overflow-hidden animate-fadeIn">
                 <div className="overflow-hidden">
                     <Image src="/waldo.png" alt="Family Waldo" width={300} height={300} className="rounded-md transition-all duration-500 hover:scale-150" />
                 </div>
@@ -19,7 +19,7 @@ export default function Projects() {
                     </p>
                 </div>
             </div>
-            <div className=" flex flex-row items-start justify-center gap-4 p-4 bg-gray-300 rounded-lg transition-all duration-500 hover:shadow-2xl sm:flex-col h-[100%] overflow-hidden">
+            <div className=" flex flex-row items-start justify-center gap-4 p-4 bg-gray-300 rounded-lg transition-all duration-500 hover:shadow-2xl sm:flex-col h-[100%] overflow-hidden animate-fadeIn">
                 <div className="overflow-hidden">
                     <Image src="/bloggy.png" alt="Bloggy" width={300} height={300} className="rounded-md transition-all duration-500 hover:scale-150" />
                 </div>
@@ -35,7 +35,7 @@ export default function Projects() {
                     </p>
                 </div>
             </div>
-            <div className=" flex flex-row items-start justify-center gap-4 p-4 bg-gray-300 rounded-lg transition-all duration-500 hover:shadow-2xl sm:flex-col h-[100%] overflow-hidden">
+            <div className=" flex flex-row items-start justify-center gap-4 p-4 bg-gray-300 rounded-lg transition-all duration-500 hover:shadow-2xl sm:flex-col h-[100%] overflow-hidden animate-fadeIn">
                 <div className="overflow-hidden">
                     <Image src="/battleship.png" alt="Battleship" width={300} height={300} className="rounded-md transition-all duration-500 hover:scale-150" />
                 </div>
@@ -51,7 +51,7 @@ export default function Projects() {
                     </p>
                 </div>
             </div>
-            <div className=" flex flex-row items-start justify-center gap-4 p-4 bg-gray-300 rounded-lg transition-all duration-500 hover:shadow-2xl sm:flex-col h-[100%] overflow-hidden">
+            <div className=" flex flex-row items-start justify-center gap-4 p-4 bg-gray-300 rounded-lg transition-all duration-500 hover:shadow-2xl sm:flex-col h-[100%] overflow-hidden animate-fadeIn">
                 <div className="overflow-hidden">
                     <Image src="/cart.png" alt="FStore" width={300} height={300} className="rounded-md transition-all duration-500 hover:scale-150" />
                 </div>

@@ -49,7 +49,7 @@ const config: Config = {
       animation: {
         slideDown : 'slideDown 1s ease-in-out',
         fadeIn: 'fadeIn 1s ease-in-out',
-        slideIn: 'slideIn 0.8s linear',
+        slideIn: 'slideIn 0.3s linear',
       },
       gridTemplateColumns: {
         'auto-fit-300': 'repeat(auto-fit, minmax(300px, 1fr))',
